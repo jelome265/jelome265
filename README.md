@@ -1,92 +1,57 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Jelome%20Ngamuti&fontSize=50&fontColor=61DAFB&fontAlignY=45&animation=twinkling&section=header" />
+# jelome265
 
-I'm Jelome Ngamuti, a level 5 Computer Science student and system design engineer 
+> Memorable developer positioning.
 
-💡 *“Crafting logic and elegance in every line of code.”*
+**Theme:** GitHub · **Style:** Creative · **Agent:** Full-Stack Engineer
 
----
-
-<div align="center">
-    <picture><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" align="center" style="width: 100%" /><picture>
-</div>
-
----
-
-### 📬 Connect with Me  
-
+## Header
+> Editing this section in the inspector.
+Hi, I'm **jelome265**. This README is tuned for **personal brand** with a GitHub visual system.
 <p align="center">
-  <a href="mailto:jelomengamuti@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-091519?style=for-the-badge&logo=gmail&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.linkedin.com/in/jelome-ngamuti-a6a656281?">
-    <img src="https://img.shields.io/badge/LinkedIn-091519?style=for-the-badge&logo=linkedin&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.instagram.com/boymeetswrld.21?igs=ZWMzOG9rZGo5dzly">
-    <img src="https://img.shields.io/badge/Instagram-091519?style=for-the-badge&logo=instagram&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.facebook.com/share/1DKw4jvTpj/">
-    <img src="https://img.shields.io/badge/Facebook-091519?style=for-the-badge&logo=facebook&logoColor=61DAFB" />
-  </a>
-  <a href="https://discord.gg/ekqtzkE6">
-    <img src="https://img.shields.io/badge/Discord-091519?style=for-the-badge&logo=discord&logoColor=61DAFB" />
-  </a>
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/hero?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/hero?username=jelome265&theme=github-dark" alt="jelome265 hero section" />
+  </picture>
+</p>
+## About Me
+Shapes the short profile story and positioning.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/about?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/about?username=jelome265&theme=github-dark" alt="jelome265 about section" />
+  </picture>
+</p>
+## Skills
+Selected stack and skill badges will be generated from the GitHub profile and README strategy.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stack?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stack?username=jelome265&theme=github-dark" alt="jelome265 stack section" />
+  </picture>
+</p>
+## GitHub Stats
+GitSkins stat widgets will use the **GitHub** theme.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/stats?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/stats?username=jelome265&theme=github-dark" alt="jelome265 stats section" />
+  </picture>
+</p>
+## Projects
+Highlights repositories as proof of work.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/projects?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/projects?username=jelome265&theme=github-dark" alt="jelome265 projects section" />
+  </picture>
+</p>
+## Connect
+Contact and social links will appear here.
+<p align="center">
+  <picture>
+    <source media="(prefers-color-scheme: light)" srcset="https://www.gitskins.com/api/section/social?username=jelome265&theme=github-dark&mode=light" />
+    <img src="https://www.gitskins.com/api/section/social?username=jelome265&theme=github-dark" alt="jelome265 social section" />
+  </picture>
 </p>
 
-<p align="center">
-  <a href="https://github.com/jelome265">
-    <img src="https://komarev.com/ghpvc/?username=Saboo24&color=3a8296&label=Profile%20Views" />
-  </a>
-  <a href="https://github.com/jelome265">
-    <img src="https://img.shields.io/github/followers/jelome265?label=GitHub%20Followers&color=3a8296&style=flat" />
-  </a>
-</p>
-
----
-
-### 🧠 Skills
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,c,js,html,css,nodejs,php&theme=light" />
-  </a>
-</p>
-
----
-
-### ⚙️ Tools
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,git,github,linux&theme=light" />
-  </a>
-</p>
-
----
-
-### 📊 GitHub Statistics
-
-<img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Saboo24&show_icons=true&theme=radical&title_color=61DAFB&icon_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false" height="170em"/>
-<img src="https://streak-stats.demolab.com?user=Saboo24&theme=radical&hide_border=false&background=0,000000,091519&currStreakLabel=61DAFB&ring=3a8296&fire=61DAFB&sideLabels=61DAFB" height="170em"/>
-
----
-
-### 🧩 Most Used Languages
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=Saboo24&layout=compact&langs_count=8&theme=radical&title_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false&custom_title=Most%20Used%20Languages" height="170em"/>
-
----
-
-## 🏆 Top Contributed Repo
-
-<img src="https://github-contributor-stats.vercel.app/api?username=Saboo24&limit=5&theme=radical&combine_all_yearly_contributions=true&title_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false" height="170em"/>
-
----
-
-## ✍️ Random Dev Quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&bg_color=0:3a8296,100:000000&border_color=61DAFB&text_color=61DAFB" />
-</p>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=100&section=footer&text=Thanks%20for%20Visiting%20👋🏻&fontSize=25&fontColor=61DAFB&animation=twinkling" />
+<!-- Sections: Header, About Me, Skills, GitHub Stats, Projects, Connect -->
