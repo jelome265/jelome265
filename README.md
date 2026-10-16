@@ -35,23 +35,7 @@
 
 ---
 
-## [01] ARCHITECTURE
-
-Every boundary is assumed to fail. Each arrow below states its failure policy, and each store has one owner.
-
-```mermaid
-%%{init: {'theme':'dark','themeVariables':{'background':'#0B1218','primaryColor':'#0F1A22','primaryBorderColor':'#61DAFB','primaryTextColor':'#C8E1FF','lineColor':'#3a8296','fontFamily':'monospace'}}}%%
-flowchart LR
-    C[client] --> G[gateway<br/>timeouts · rate limits · authN]
-    G --> S1[service A<br/>bulkhead]
-    G --> S2[service B<br/>bulkhead]
-    S1 --> K[(kafka<br/>retry + DLQ)]
-    S2 --> K
-    K --> W[workers<br/>idempotent consumers]
-    W --> DB[(postgres<br/>per-service ownership)]
-```
-
-## [02] PROJECTS
+## [01] PROJECTS
 
 | Project | Type | What it does | Stack |
 |---|---|---|---|
@@ -60,24 +44,7 @@ flowchart LR
 | **[rustacean](https://github.com/jelome265/Rustacean)** | `[TOOLING]` | Reusable Rust engineering workflows for AI coding agents. Executable checks, CI, security automation. | `rust` `python` `github actions` `codeql` |
 | **[nullwarden](https://github.com/jelome265/nullwarden)** | `[PROTOTYPE]` | Zero-knowledge password vault. Local protection with cloud sync, a Rust CLI and core, a REST backend. | `rust` `axum` `postgres` `docker` |
 
-## [03] PRINCIPLES
-
-```text
-▸ failure is designed, not discovered
-    timeouts · backoff retries · idempotency · circuit breakers · bulkheads
-▸ every piece of data has one owner
-    service-owned databases · consistency chosen per domain
-▸ contracts over coupling
-    versioned apis and events, treated as public interfaces
-▸ security is the default path
-    oauth2/oidc · jwt · rbac · least privilege · encryption at rest · supply-chain checks
-▸ observe what users feel
-    opentelemetry · slos · alerts on symptoms, not noise
-▸ split by domain, not by fashion
-    no microservices unless the boundary earns them
-```
-
-## [04] STACK
+## [02] STACK
 
 ```text
 rust/      axum · tokio · cargo                  (primary)
@@ -87,7 +54,7 @@ infra/     docker · compose · github actions · codeql
 clients/   flutter · tauri
 ```
 
-## [05] TELEMETRY
+## [03] TELEMETRY
 
 ```text
 $ public repos ........ 15
@@ -101,7 +68,7 @@ $ private work ........ not listed
   <img height="170" src="https://streak-stats.demolab.com?user=jelome265&theme=transparent&hide_border=false&currStreakLabel=61DAFB&ring=3a8296&fire=61DAFB&sideLabels=61DAFB&currStreakNum=C8E1FF&stroke=3a8296" />
 </p>
 
-## [06] CONNECT
+## [04] CONNECT
 
 ```text
   ✉  jelomengamuti@gmail.com
