@@ -11,7 +11,7 @@ ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "contributions.json"
 OUTPUT = ROOT / "contrib-heatmap.svg"
 
-WIDTH = 840
+WIDTH = 860
 PAD = 22
 TITLEBAR = 30
 TOP_LABEL = 22
@@ -29,12 +29,12 @@ GRID_LEFT = CONTENT_LEFT + LABEL_WIDTH + LABEL_GAP
 GRID_TOP = TITLEBAR + TOP_LABEL
 HEIGHT = GRID_TOP + GRID_HEIGHT + 108
 
-BACKGROUND = "#0b0d10"
-FRAME = "#40382d"
-MUTED = "#928b7d"
-INK = "#d4c7ad"
-ACCENT = "#b58b54"
-PALETTE = ["#1a1b1d", "#3b3022", "#5f482d", "#80603b", "#a67b45", "#d0ac6b"]
+BACKGROUND = "#0d1117"
+FRAME = "#30363d"
+MUTED = "#7d8590"
+INK = "#e6edf3"
+ACCENT = "#7ee787"
+PALETTE = ["#161b22", "#0e4429", "#006d32", "#26a641", "#39d353", "#69f0a0"]
 
 
 def level_for(count: int) -> int:
@@ -90,7 +90,7 @@ def render(payload: dict[str, Any]) -> str:
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{HEIGHT - 1}" rx="12" fill="none" stroke="{FRAME}"/>',
         f'<line x1="0" y1="{TITLEBAR}" x2="{WIDTH}" y2="{TITLEBAR}" stroke="{FRAME}"/>',
         '<circle cx="20" cy="15" r="4.5" fill="#8b5149"/><circle cx="36" cy="15" r="4.5" fill="#9e814b"/><circle cx="52" cy="15" r="4.5" fill="#6e8764"/>',
-        f'<text x="{WIDTH / 2}" y="19" fill="{MUTED}" font-size="12" text-anchor="middle">jelome@citadel: ~/contributions --graph</text>',
+        f'<text x="{WIDTH / 2}" y="19" fill="{MUTED}" font-size="12" text-anchor="middle">jelome265@github ~ $ ./contributions.sh</text>',
     ]
 
     month_labels: list[tuple[int, str]] = []

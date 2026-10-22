@@ -128,6 +128,8 @@ class SvgGenerationTests(unittest.TestCase):
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
             self.assertIn("<animate", svg)
             self.assertIn("<clipPath", svg)
+            self.assertIn("jelome265@github", svg)
+            self.assertNotIn("citadel", svg.lower())
 
     def test_info_card_generator_produces_well_formed_svg(self) -> None:
         with tempfile.TemporaryDirectory(dir=ROOT / "tests") as tmp:
@@ -140,6 +142,19 @@ class SvgGenerationTests(unittest.TestCase):
             self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
             self.assertIn("Jelome Ngamuti", text_content)
             self.assertIn("Rust", text_content)
+            self.assertIn("neofetch", text_content)
+            self.assertNotIn("citadel", text_content.lower())
+
+    def test_readme_matches_the_guide_layout(self) -> None:
+        readme = (ROOT / "README.md").read_text(encoding="utf-8")
+        self.assertIn('src="./contrib-heatmap.svg" width="860"', readme)
+        self.assertIn('src="./portrait.svg" width="370"', readme)
+        self.assertIn('src="./info-card.svg" width="490"', readme)
+        self.assertNotIn("citadel", readme.lower())
+
+    def test_heatmap_uses_the_guide_green_palette(self) -> None:
+        self.assertIn("#0e4429", render_heatmap_svg.PALETTE)
+        self.assertIn("#39d353", render_heatmap_svg.PALETTE)
 
     def test_committed_profile_svgs_are_well_formed_xml(self) -> None:
         for name in ("portrait.svg", "info-card.svg", "contrib-heatmap.svg"):

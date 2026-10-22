@@ -20,12 +20,12 @@ ART_WIDTH = WIDTH - 2 * PAD
 CELL_HEIGHT = 15.0
 ART_TOP = 48.0
 RAMP = " .`:-=+*#%@"
-BACKGROUND = "#0b0d10"
-PANEL = "#111317"
-FRAME = "#34312b"
-MUTED = "#928b7d"
-INK = "#d4c7ad"
-ACCENT = "#b58b54"
+BACKGROUND = "#0d1117"
+PANEL = "#161b22"
+FRAME = "#30363d"
+MUTED = "#7d8590"
+INK = "#c9d1d9"
+ACCENT = "#c9d1d9"
 ROW_DURATION = 5.8 / ROWS
 
 
@@ -58,15 +58,15 @@ def main() -> None:
 
     parts = [
         f'<svg xmlns="http://www.w3.org/2000/svg" width="{WIDTH}" height="{HEIGHT}" viewBox="0 0 {WIDTH} {HEIGHT}" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">',
-        "<defs><linearGradient id=\"panel\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#14161a\"/><stop offset=\"1\" stop-color=\"#090b0e\"/></linearGradient></defs>",
+        "<defs><linearGradient id=\"panel\" x1=\"0\" y1=\"0\" x2=\"0\" y2=\"1\"><stop offset=\"0\" stop-color=\"#161b22\"/><stop offset=\"1\" stop-color=\"#0d1117\"/></linearGradient></defs>",
         f'<rect width="{WIDTH}" height="{HEIGHT}" rx="12" fill="url(#panel)"/>',
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{HEIGHT - 1}" rx="12" fill="none" stroke="{FRAME}"/>',
         f'<line x1="0" y1="{TITLEBAR}" x2="{WIDTH}" y2="{TITLEBAR}" stroke="{FRAME}"/>',
     ]
-    for index, color in enumerate(("#8b5149", "#9e814b", "#6e8764")):
+    for index, color in enumerate(("#ff5f56", "#ffbd2e", "#27c93f")):
         parts.append(f'<circle cx="{PAD + index * 16}" cy="{TITLEBAR / 2}" r="5" fill="{color}"/>')
     parts.append(
-        f'<text x="{WIDTH / 2}" y="22" fill="{MUTED}" font-size="12" text-anchor="middle">jelome@citadel:~$ ./portrait.sh</text>'
+        f'<text x="{WIDTH / 2}" y="22" fill="{MUTED}" font-size="12" text-anchor="middle">jelome265@github ~ $ ./portrait.sh</text>'
     )
 
     font_size = 13.4
@@ -97,7 +97,7 @@ def main() -> None:
     parts.extend(
         [
             f'<line x1="0" y1="{HEIGHT - 42}" x2="{WIDTH}" y2="{HEIGHT - 42}" stroke="{FRAME}"/>',
-            f'<text x="{PAD}" y="{status_y}" fill="{MUTED}" font-size="13">jelome@citadel:~$ whoami <tspan fill="{INK}">Jelome Ngamuti</tspan></text>',
+            f'<text x="{PAD}" y="{status_y}" fill="{MUTED}" font-size="13">jelome265@github ~ $ whoami <tspan fill="{INK}">Jelome Ngamuti</tspan></text>',
             "</svg>",
         ]
     )
