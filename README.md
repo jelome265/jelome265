@@ -1,92 +1,53 @@
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=150&text=Jelome%20Ngamuti&fontSize=50&fontColor=61DAFB&fontAlignY=45&animation=twinkling&section=header" />
-
-I'm Jelome Ngamuti, a level 5 Computer Science student and system design engineer 
-
-💡 *“Crafting logic and elegance in every line of code.”*
-
----
-
+<!--
+  Animated profile art is generated locally by scripts/ and refreshed by
+  .github/workflows/update-profile-art.yml. No hosted stats widgets or tokens.
+-->
 <div align="center">
-    <picture><img src="https://user-images.githubusercontent.com/74038190/225813708-98b745f2-7d22-48cf-9150-083f1b00d6c9.gif" align="center" style="width: 100%" /><picture>
+
+<h3><code>jelome@citadel:~$ ./contributions.sh</code></h3>
+
+<img src="./contrib-heatmap.svg" width="840" alt="GitHub contribution calendar rendered as a terminal heatmap" />
+
+<br>
+<br>
+
+<h3><code>jelome@citadel:~$ whoami</code></h3>
+
+<table>
+  <tr>
+    <td valign="top"><img src="./avi-ascii.svg" width="420" alt="Monochrome ASCII portrait generated from my GitHub avatar" /></td>
+    <td valign="top"><img src="./info-card.svg" width="420" alt="Terminal-style profile information card" /></td>
+  </tr>
+</table>
+
+<br>
+
+<p><strong>Computer Science student · Backend engineering · Systems design</strong></p>
+
+<p>
+  <a href="https://jelomengamuti.pages.dev">Portfolio</a>
+  &nbsp;·&nbsp;
+  <a href="https://www.linkedin.com/in/jelome-ngamuti-a6a656281">LinkedIn</a>
+  &nbsp;·&nbsp;
+  <a href="mailto:jelomengamuti@gmail.com">Email</a>
+</p>
+
 </div>
 
 ---
 
-### 📬 Connect with Me  
+## Selected work
 
-<p align="center">
-  <a href="mailto:jelomengamuti@gmail.com">
-    <img src="https://img.shields.io/badge/Gmail-091519?style=for-the-badge&logo=gmail&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.linkedin.com/in/jelome-ngamuti-a6a656281?">
-    <img src="https://img.shields.io/badge/LinkedIn-091519?style=for-the-badge&logo=linkedin&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.instagram.com/boymeetswrld.21?igs=ZWMzOG9rZGo5dzly">
-    <img src="https://img.shields.io/badge/Instagram-091519?style=for-the-badge&logo=instagram&logoColor=61DAFB" />
-  </a>
-  <a href="https://www.facebook.com/share/1DKw4jvTpj/">
-    <img src="https://img.shields.io/badge/Facebook-091519?style=for-the-badge&logo=facebook&logoColor=61DAFB" />
-  </a>
-  <a href="https://discord.gg/ekqtzkE6">
-    <img src="https://img.shields.io/badge/Discord-091519?style=for-the-badge&logo=discord&logoColor=61DAFB" />
-  </a>
-</p>
+**[Sitolo](https://github.com/jelome265/sitolo)**  
+An offline-first business operating system for African SMEs, starting in Malawi.
 
-<p align="center">
-  <a href="https://github.com/jelome265">
-    <img src="https://komarev.com/ghpvc/?username=Saboo24&color=3a8296&label=Profile%20Views" />
-  </a>
-  <a href="https://github.com/jelome265">
-    <img src="https://img.shields.io/github/followers/jelome265?label=GitHub%20Followers&color=3a8296&style=flat" />
-  </a>
-</p>
+**[Rustacean](https://github.com/jelome265/Rustacean)**  
+Engineering guidance and tooling for building secure, reliable Rust systems.
+
+## Engineering focus
+
+Rust-first backend development, software architecture, domain modeling, security boundaries, and operational reliability. I value systems that are correct, maintainable, and proportionate to the problem.
 
 ---
 
-### 🧠 Skills
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=java,c,js,html,css,nodejs,php&theme=light" />
-  </a>
-</p>
-
----
-
-### ⚙️ Tools
-<p align="center">
-  <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=vscode,git,github,linux&theme=light" />
-  </a>
-</p>
-
----
-
-### 📊 GitHub Statistics
-
-<img align="right" width="40%" src="https://owlbertsio-resized.s3.amazonaws.com/Popper.psd.full.png">
-
-<img src="https://github-readme-stats.vercel.app/api?username=Saboo24&show_icons=true&theme=radical&title_color=61DAFB&icon_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false" height="170em"/>
-<img src="https://streak-stats.demolab.com?user=Saboo24&theme=radical&hide_border=false&background=0,000000,091519&currStreakLabel=61DAFB&ring=3a8296&fire=61DAFB&sideLabels=61DAFB" height="170em"/>
-
----
-
-### 🧩 Most Used Languages
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=jelome265&layout=compact&langs_count=8&theme=radical&title_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false&custom_title=Most%20Used%20Languages" height="170em"/>
-
----
-
-## 🏆 Top Contributed Repo
-
-<img src="https://github-contributor-stats.vercel.app/api?username=jelome265&limit=5&theme=radical&combine_all_yearly_contributions=true&title_color=61DAFB&text_color=C8E1FF&bg_color=0,091519,000000&border_color=3a8296&hide_border=false" height="170em"/>
-
----
-
-## ✍️ Random Dev Quote
-<p align="center">
-  <img src="https://quotes-github-readme.vercel.app/api?type=horizontal&theme=dark&bg_color=0:3a8296,100:000000&border_color=61DAFB&text_color=61DAFB" />
-</p>
-
----
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:3a8296,100:091519&height=100&section=footer&text=Thanks%20for%20Visiting%20👋🏻&fontSize=25&fontColor=61DAFB&animation=twinkling" />
+<sub>Profile artwork is generated from public GitHub contribution data and my public avatar. GitHub Actions refreshes it daily; the SVG animations are self-hosted in this repository.</sub>
