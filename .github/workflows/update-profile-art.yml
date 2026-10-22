@@ -35,6 +35,9 @@ jobs:
       - name: Compile Python scripts
         run: python -m compileall -q scripts
 
+      - name: Run profile-art regression tests
+        run: python -m unittest discover --start-directory tests --top-level-directory . -v
+
       - name: Fetch avatar and public contribution data
         env:
           GH_PROFILE_USER: jelome265
