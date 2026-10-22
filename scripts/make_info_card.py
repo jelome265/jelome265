@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Render the static profile facts card with a one-shot terminal-style reveal."""
+"""Render the profile's neofetch-style information card as an animated SVG."""
 from __future__ import annotations
 
 from pathlib import Path
@@ -8,19 +8,19 @@ ROOT = Path(__file__).resolve().parents[1]
 OUTPUT = ROOT / "info-card.svg"
 
 WIDTH = HEIGHT = 840
-BACKGROUND = "#0b0d10"
-FRAME = "#34312b"
-MUTED = "#928b7d"
-INK = "#d4c7ad"
-ACCENT = "#b58b54"
+BACKGROUND = "#0d1117"
+FRAME = "#30363d"
+MUTED = "#7d8590"
+INK = "#e6edf3"
+ACCENT = "#7ee787"
 
 ROWS = [
-    ("IDENTITY", "Jelome Ngamuti"),
-    ("STUDY", "Computer Science · Year 2"),
-    ("FOCUS", "Rust · backend systems · architecture"),
-    ("BUILDING", "Sitolo · Rustacean"),
-    ("ENGINEERING", "Security · reliability · maintainability"),
-    ("BASE", "Malawi"),
+    ("Name", "Jelome Ngamuti"),
+    ("Now", "Computer Science student · Year 2"),
+    ("Stack", "Rust · Node.js · JavaScript"),
+    ("Building", "Sitolo · Rustacean"),
+    ("Focus", "Backend engineering · system design"),
+    ("Based in", "Malawi"),
 ]
 
 
@@ -31,30 +31,20 @@ def main() -> None:
         f'<rect width="{WIDTH}" height="{HEIGHT}" rx="12" fill="{BACKGROUND}"/>',
         f'<rect x="0.5" y="0.5" width="{WIDTH - 1}" height="{HEIGHT - 1}" rx="12" fill="none" stroke="{FRAME}"/>',
         f'<line x1="0" y1="34" x2="{WIDTH}" y2="34" stroke="{FRAME}"/>',
-        f'<circle cx="20" cy="17" r="5" fill="#8b5149"/><circle cx="36" cy="17" r="5" fill="#9e814b"/><circle cx="52" cy="17" r="5" fill="#6e8764"/>',
-        f'<text x="{WIDTH / 2}" y="22" fill="{MUTED}" font-size="12" text-anchor="middle">jelome@citadel:~$ ./about.sh</text>',
-        f'<text x="32" y="91" fill="{ACCENT}" font-size="18">PROFILE / ENGINEERING RECORD</text>',
-        f'<text x="32" y="125" fill="{INK}" font-size="28">Build systems worth trusting.</text>',
-        f'<line x1="32" y1="151" x2="{WIDTH - 32}" y2="151" stroke="{FRAME}"/>',
+        f'<circle cx="20" cy="17" r="5" fill="#ff5f56"/><circle cx="36" cy="17" r="5" fill="#ffbd2e"/><circle cx="52" cy="17" r="5" fill="#27c93f"/>',
+        f'<text x="{WIDTH / 2}" y="22" fill="{MUTED}" font-size="12" text-anchor="middle">jelome265@github ~ $ neofetch</text>',
     ]
-
-    row_top = 176
-    row_height = 91
+    row_top = 86
+    row_height = 103
     for index, (label, value) in enumerate(ROWS):
         y = row_top + index * row_height
         delay = index * 0.12
         parts.append(f'<g class="row" style="animation-delay:{delay:.2f}s">')
-        parts.append(f'<text x="34" y="{y + 22}" fill="{ACCENT}" font-size="16">{label}</text>')
-        parts.append(f'<text x="34" y="{y + 55}" fill="{INK}" font-size="23">{value}</text>')
-        parts.append(f'<line x1="32" y1="{y + 72}" x2="{WIDTH - 32}" y2="{y + 72}" stroke="{FRAME}" stroke-opacity="0.7"/>')
+        parts.append(f'<text x="34" y="{y + 22}" fill="{ACCENT}" font-size="18">{label}</text>')
+        parts.append(f'<text x="34" y="{y + 58}" fill="{INK}" font-size="23">{value}</text>')
+        parts.append(f'<line x1="32" y1="{y + 77}" x2="{WIDTH - 32}" y2="{y + 77}" stroke="{FRAME}" stroke-opacity="0.7"/>')
         parts.append("</g>")
-
-    parts.extend(
-        [
-            f'<text x="32" y="{HEIGHT - 40}" fill="{MUTED}" font-size="14">principle: correctness first; complexity only when earned</text>',
-            "</svg>",
-        ]
-    )
+    parts.append("</svg>")
     OUTPUT.write_text("".join(parts), encoding="utf-8")
     print(f"Rendered {OUTPUT.relative_to(ROOT)}")
 
