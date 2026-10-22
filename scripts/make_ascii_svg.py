@@ -9,7 +9,7 @@ from PIL import Image, ImageEnhance, ImageOps
 
 ROOT = Path(__file__).resolve().parents[1]
 SOURCE = ROOT / "data" / "profile-avatar.png"
-OUTPUT = ROOT / "avi-ascii.svg"
+OUTPUT = ROOT / "portrait.svg"
 
 WIDTH = HEIGHT = 840
 TITLEBAR = 34

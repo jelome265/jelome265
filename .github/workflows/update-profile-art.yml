@@ -57,7 +57,7 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          for name in ("avi-ascii.svg", "info-card.svg", "contrib-heatmap.svg"):
+          for name in ("portrait.svg", "info-card.svg", "contrib-heatmap.svg"):
               ET.parse(Path(name))
               print(f"Validated {name}")
           PY
@@ -66,7 +66,7 @@ jobs:
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add avi-ascii.svg info-card.svg contrib-heatmap.svg data/contributions.json
+          git add portrait.svg info-card.svg contrib-heatmap.svg data/contributions.json
           if git diff --cached --quiet; then
             echo "Generated artwork is already current."
           else

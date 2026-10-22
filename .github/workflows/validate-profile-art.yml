@@ -50,7 +50,7 @@ jobs:
           import xml.etree.ElementTree as ET
           from pathlib import Path
 
-          for name in ("avi-ascii.svg", "info-card.svg", "contrib-heatmap.svg"):
+          for name in ("portrait.svg", "info-card.svg", "contrib-heatmap.svg"):
               ET.parse(Path(name))
               print(f"Validated {name}")
           PY

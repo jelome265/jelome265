@@ -15,7 +15,7 @@
 
 <table>
   <tr>
-    <td valign="top"><img src="./avi-ascii.svg" width="420" alt="Monochrome ASCII portrait generated from my GitHub avatar" /></td>
+    <td valign="top"><img src="./portrait.svg" width="420" alt="Monochrome ASCII portrait generated from my GitHub avatar" /></td>
     <td valign="top"><img src="./info-card.svg" width="420" alt="Terminal-style profile information card" /></td>
   </tr>
 </table>

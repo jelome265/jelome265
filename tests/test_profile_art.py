@@ -142,7 +142,7 @@ class SvgGenerationTests(unittest.TestCase):
             self.assertIn("Rust", text_content)
 
     def test_committed_profile_svgs_are_well_formed_xml(self) -> None:
-        for name in ("avi-ascii.svg", "info-card.svg", "contrib-heatmap.svg"):
+        for name in ("portrait.svg", "info-card.svg", "contrib-heatmap.svg"):
             with self.subTest(name=name):
                 root = ET.parse(ROOT / name).getroot()
                 self.assertEqual(root.tag, "{http://www.w3.org/2000/svg}svg")
