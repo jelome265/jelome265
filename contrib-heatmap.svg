@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="840" height="250" viewBox="0 0 840 250" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+  <rect width="840" height="250" rx="12" fill="#0b0d10"/>
+  <rect x="0.5" y="0.5" width="839" height="249" rx="12" fill="none" stroke="#40382d"/>
+  <line x1="0" y1="30" x2="840" y2="30" stroke="#40382d"/>
+  <circle cx="20" cy="15" r="4.5" fill="#8b5149"/>
+  <circle cx="36" cy="15" r="4.5" fill="#9e814b"/>
+  <circle cx="52" cy="15" r="4.5" fill="#6e8764"/>
+  <text x="420" y="19" fill="#928b7d" font-size="12" text-anchor="middle">jelome@citadel: ~/contributions --graph</text>
+  <text x="30" y="92" fill="#d4c7ad" font-size="12">Contribution history will render from GitHub's public calendar.</text>
+  <text x="30" y="121" fill="#b58b54" font-size="12">No token · No external stats service · Daily refresh</text>
+  <line x1="0" y1="164" x2="840" y2="164" stroke="#40382d" stroke-opacity="0.7"/>
+  <text x="22" y="202" fill="#928b7d" font-size="12">First generated graph appears after the profile-art workflow runs.</text>
+</svg>
