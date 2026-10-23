@@ -4,8 +4,8 @@ I'm a third-year Computer Science student based in Malawi, focused on backend en
 
 ### What I'm Building
 
-1. **[Sitolo](https://github.com/jelome265/sitolo)** — A business operating system for African SMEs, with a focus on store operations, offline-first workflows and financial visibility.
-2. **[Rustacean](https://github.com/jelome265/Rustacean)** — A Rust-focused learning and engineering project exploring the language and systems-oriented development.
+1. **[Sitolo](https://github.com/jelome265/sitolo)**: A business operating system for African SMEs, with a focus on store operations, offline-first workflows and financial visibility.
+2. **[Rustacean](https://github.com/jelome265/Rustacean)**: A Rust-focused learning and engineering project exploring the language and systems-oriented development.
 
 ### Technologies I Work With
 
