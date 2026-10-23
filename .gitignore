@@ -1,6 +1,0 @@
-.venv/
-__pycache__/
-*.py[cod]
-data/profile-avatar.png
-source-photo.*
-source-prepped.*
