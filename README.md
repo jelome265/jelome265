@@ -1,38 +1,36 @@
-<!--
-  Profile layout follows the animated SVG workflow described in the guide.
-  Artwork is generated in this repository and refreshed with GitHub Actions.
--->
-<div align="center">
+## Hi, I'm Jelome Ngamuti
 
-<h3><code>jelome265@github ~ $ ./contributions.sh</code></h3>
+I'm a second-year Computer Science student based in Malawi, focused on backend engineering and systems design. I enjoy working through difficult engineering problems and building software that accounts for real-world constraints.
 
-<img src="./contrib-heatmap.svg" width="860" alt="GitHub contribution heatmap for the last year" />
+### What I'm Building
 
-<br>
-<br>
+1. **[Sitolo](https://github.com/jelome265/sitolo)** — A business operating system for African SMEs, with a focus on store operations, offline-first workflows, and financial visibility.
+2. **[Rustacean](https://github.com/jelome265/Rustacean)** — A Rust-focused learning and engineering project exploring the language and systems-oriented development.
 
-<h3><code>jelome265@github ~ $ whoami</code></h3>
+### Technologies I Work With
 
-<table>
-  <tr>
-    <td valign="top"><img src="./portrait.svg" width="370" alt="Animated ASCII portrait generated from my GitHub avatar" /></td>
-    <td valign="top"><img src="./info-card.svg" width="490" alt="Profile information card showing my current work and engineering interests" /></td>
-  </tr>
-</table>
+- **Rust** — systems programming, ownership, error handling, and reliable software design.
+- **JavaScript / Node.js** — backend development and application tooling.
+- **Databases** — relational data modelling and SQL through coursework and project work.
+- **Web development** — building and integrating application interfaces and services.
 
-<br>
-<br>
+I'm currently studying Software Engineering, Databases, Computer Systems, and Web Development.
 
-<h3><code>jelome265@github ~ $ ./links.sh</code></h3>
+### A Few Things About Me
 
-<p><strong>Computer Science Student · Backend Engineering · Systems Design</strong></p>
+1. I like understanding how systems behave beyond the happy path, especially their failure modes, boundaries, and security.
+2. I prefer validating real implementations over relying on mock-only confidence.
+3. I care about making software useful under practical constraints, not just ideal conditions.
 
-<p>
-  <a href="https://jelomengamuti.pages.dev">Portfolio</a>
-  &nbsp;·&nbsp;
-  <a href="https://www.linkedin.com/in/jelome-ngamuti-a6a656281">LinkedIn</a>
-  &nbsp;·&nbsp;
-  <a href="mailto:jelomengamuti@gmail.com">Email</a>
-</p>
+### Areas I Care About
 
-</div>
+1. Backend engineering and system design
+2. Security, reliability, and observability
+3. Offline-first software for low-connectivity environments
+4. Technology that helps African businesses operate more effectively
+
+### Get In Touch
+
+- Portfolio: https://jelomengamuti.pages.dev
+- LinkedIn: https://www.linkedin.com/in/jelome-ngamuti-a6a656281
+- Email: jelomengamuti@gmail.com
