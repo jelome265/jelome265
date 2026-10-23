@@ -1,18 +1,18 @@
 ## Hi, I'm Jelome Ngamuti
 
-I'm a second-year Computer Science student based in Malawi, focused on backend engineering and systems design. I enjoy working through difficult engineering problems and building software that accounts for real-world constraints.
+I'm a third-year Computer Science student based in Malawi, focused on backend engineering and systems design. I enjoy working through difficult engineering problems and building software that accounts for real-world constraints.
 
 ### What I'm Building
 
-1. **[Sitolo](https://github.com/jelome265/sitolo)** — A business operating system for African SMEs, with a focus on store operations, offline-first workflows, and financial visibility.
+1. **[Sitolo](https://github.com/jelome265/sitolo)** — A business operating system for African SMEs, with a focus on store operations, offline-first workflows and financial visibility.
 2. **[Rustacean](https://github.com/jelome265/Rustacean)** — A Rust-focused learning and engineering project exploring the language and systems-oriented development.
 
 ### Technologies I Work With
 
-- **Rust** — systems programming, ownership, error handling, and reliable software design.
-- **JavaScript / Node.js** — backend development and application tooling.
-- **Databases** — relational data modelling and SQL through coursework and project work.
-- **Web development** — building and integrating application interfaces and services.
+- **Rust**: backend development, systems programming, ownership, error handling and reliable software design.
+- **TypeScript + Tailwind**: frontend development and application tooling. plus
+- **Databases**: relational data modelling and SQL through coursework and project work.
+- **Web development**: building and integrating application interfaces and services.
 
 I'm currently studying Software Engineering, Databases, Computer Systems, and Web Development.
 
@@ -25,7 +25,7 @@ I'm currently studying Software Engineering, Databases, Computer Systems, and We
 ### Areas I Care About
 
 1. Backend engineering and system design
-2. Security, reliability, and observability
+2. Security, reliability and observability
 3. Offline-first software for low-connectivity environments
 4. Technology that helps African businesses operate more effectively
 
