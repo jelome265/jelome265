@@ -31,6 +31,6 @@ I'm currently studying Software Engineering, Databases, Computer Systems, and We
 
 ### Get In Touch
 
-- Portfolio: https://jelome-ngamuti.vercel.app
+- Portfolio: jelome-ngamuti-ten.vercel.app
 - LinkedIn: https://www.linkedin.com/in/jelome-ngamuti-a6a656281
 - Email: jelomengamuti@gmail.com
