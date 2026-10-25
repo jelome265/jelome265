@@ -1,6 +1,8 @@
-## Hi, I'm Jelome Ngamuti
+# Jelome Ngamuti
 
-I'm a third-year Computer Science student based in Malawi, focused on backend engineering and systems design. I enjoy working through difficult engineering problems and building software that accounts for real-world constraints.
+Rust-focused software engineer and Computer Science student based in Malawi, focused on backend engineering, systems design, and dependable software. I work on software where security, correctness, and reliability are explicit engineering priorities.
+
+**Portfolio:** [Jelome Ngamuti](https://jelome-ngamuti-ten.vercel.app)
 
 ### What I'm Building
 
@@ -10,7 +12,7 @@ I'm a third-year Computer Science student based in Malawi, focused on backend en
 ### Technologies I Work With
 
 - **Rust**: backend development, systems programming, ownership, error handling and reliable software design.
-- **TypeScript + Tailwind**: frontend development and application tooling. plus
+- **TypeScript and Tailwind CSS**: frontend development and application tooling.
 - **Databases**: relational data modelling and SQL through coursework and project work.
 - **Web development**: building and integrating application interfaces and services.
 
