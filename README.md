@@ -4,6 +4,8 @@ Rust-focused software engineer and Computer Science student based in Malawi, foc
 
 **Portfolio:** [Jelome Ngamuti](https://jelome-ngamuti-ten.vercel.app)
 
+[![committers.top badge](https://user-badge.committers.top/malawi/jelome265.svg)](https://user-badge.committers.top/malawi/jelome265)
+
 ### What I'm Building
 
 1. **[Sitolo](https://github.com/jelome265/sitolo)**: A business operating system for African SMEs, with a focus on store operations, offline-first workflows and financial visibility.
